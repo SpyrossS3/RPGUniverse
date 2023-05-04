@@ -4,7 +4,6 @@
 
 This project is focused around the text-based DOS era of games, combining the classic D&D RPG gameplay style with beautiful text formatting
 
-
 # Welcome to the RPG Universe Project!
 
 ## What is this about?
@@ -18,3 +17,7 @@ Character creation including archetypes, stat selection, weapon of choice, name,
 Countless different worlds and NPCs to encounter!
 
 Hundreds of storylines and quests to follow!
+
+# Want to follow development?
+
+**Check out the project's Official Development Notebook [here](https://github.com/SpyrossS3/RPGUniverse/blob/main/dev_notebook.ipynb)!**
