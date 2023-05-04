@@ -1,17 +1,23 @@
 # See Dev Notebook for comments and information.
+from rich.console import Console
+from rich.text import Text
 
-class Menu:
+console = Console()
+
+class mainMenu:
     def __init__(me):
         me.option = input("Hi! Enter a menu option here: ")
-        print(me.option)
+        me.input = Text(me.option)
+        me.input.stylize("bold cyan")
+        console.print(me.input)
     
-    def mainMenu(me):
+    def menu(me):
         if me.option == "1":
-            print("TRUE")
+            console.print("TRUE", style="bold yellow")
 
 class Game: 
     def __init__(me):
-        menu = Menu()
-        menu.mainMenu()
+        mainmenu = mainMenu()
+        mainmenu.menu()
 
 Game()
