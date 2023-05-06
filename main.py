@@ -6,9 +6,13 @@ console = Console()
 
 class mainMenu:
     def __init__(me):
+        me.title = Text("RPGUniverse")
+        me.title.stylize("bold underline yellow")
+        me.title.align("center", 115)
+        console.print(me.title)
         me.option = input("Hi! Enter a menu option here: ")
         me.input = Text(me.option)
-        me.input.stylize("bold cyan")
+        me.input.stylize("cyan")
         console.print(me.input)
     
     def menu(me):
